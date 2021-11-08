@@ -1,8 +1,8 @@
 import os
 import torch
 import torchvision.transforms as transforms
-from Model import Resnet18Model
-from Dataset import dataLoader
+from model import Resnet18Model
+from dataset import dataLoader
 
 import argparse
 

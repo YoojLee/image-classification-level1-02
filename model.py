@@ -2,8 +2,8 @@ import os
 import torch
 from torch import nn
 import torchvision
-from Test import Test
-from Train import Train
+from test import Test
+from train import Train
 
 class Resnet18Model(nn.Module):
     def __init__(self, num_classes=18):
